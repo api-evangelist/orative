@@ -1,8 +1,25 @@
 aid: orative
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orative.png
 name: Orative
-description: 'Orative is a company surfaced as a portfolio company of trinity-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Orative Corporation was an enterprise software company that built conferencing and
+  collaboration software for mobile business users, offering a client-server product to manage
+  conversations, collaborate with colleagues, filter unwanted calls and notifications, and access
+  personal and corporate directories. Founded in the early 2000s, it raised a $12M Series B in July
+  2004 led by Trinity Ventures (with Mayfield and Diamondhead Ventures) and was acquired by Cisco
+  Systems in October 2006. The company is defunct: there is no live product, developer portal, or
+  API surface today. This profile was surfaced as a Trinity Ventures portfolio company and processed
+  by the API Evangelist enrichment pipeline, which confirmed no current API surface exists.'
 url: https://raw.githubusercontent.com/api-evangelist/orative/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,27 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-cisco-2006
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise Software
+- Conferencing
+- Collaboration
+- Mobile
+- Voice
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
